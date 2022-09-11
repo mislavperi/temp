@@ -204,6 +204,7 @@ select {
 .f-r h1 {
   color: #242424;
   padding: 5px;
+  text-align: left;
 }
 
 .item {
@@ -240,5 +241,11 @@ footer {
     margin-left: 0;
 
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #kontakt {
+    flex-direction: column;
   }
 }
