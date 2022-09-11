@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://kit.fontawesome.com/d268b5538c.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <title>Tehnologijada</title>
+</head>
+
+<body>
+    <header>
+        <div class="icon-container">
+            <i class="fa-solid fa-bars white fa-2xl" onclick="openHeader()"></i>
+        </div>
+        <div class="img-container">
+            <img src="./assets/logo.png" alt="logo" class="logo-image">
+        </div>
+    </header>
+    <div class="pop-menu">
+        <a href="/" class="menu-item">Home</a>
+        <a href="#o-nat" class="menu-item">O Tehnologijadi</a>
+        <a href="#countdown" class="menu-item">Koliko do Tehnologijade</a>
+        <a href="#apply" class="menu-item">Prijavi se</a>
+        <a href="#kontakt" class="menu-item">Kontakt</a>
+    </div>
+    <div class="slider" id="slider">
+        <img src="/assets/img1.jpg" alt="">
+        <img src="/assets/img2.jpg" alt="">
+        <img src="/assets/img3.jpg" alt="">
+
+    </div>
+    <div class="content" id="o-nat">
+        <section class="l-section">
+            <h1>O NATJECANJU</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus incidunt beatae, accusamus nesciunt
+                unde numquam esse ab odio iure omnis placeat, minima non qui ad, quod fugiat! Facilis, nisi amet.
+            </p>
+        </section>
+        <section class="r-section">
+            <img src="./assets/logows.png" alt="">
+            <img src="./assets/logowz.png" alt="">
+        </section>
+    </div>
+    <div class="countdown" id="countdown">
+        <h1>
+            KOLIKO DO TEHNOLOGIJADE?
+        </h1>
+        <p id="timer"></p>
+    </div>
+    <form action="" class="signup" id="apply">
+        <h1>PRIJAVNICA</h1>
+        <input type="text" name="" id="" placeholder="Ime">
+        <input type="text" name="" id="" placeholder="Prezime">
+        <input type="text" name="" id="" placeholder="Email">
+        <input type="text" name="" id="" placeholder="Broj mobitela">
+        <input type="text" name="" id="" placeholder="Fakultete">
+        <select name="" id="">
+            <option value="odabir" disabled>Odaberi kategoriju</option>
+            <option value="znanost">Znanost</option>
+            <option value="sport">Sport</option>
+            <option value="oboje">Znanost i sport</option>
+        </select>
+        <button id="submit"> Pošalji</button>
+    </form>
+</body>
+<div id="kontakt">
+    <section class="f-l">
+        <h1>Kontakt Informacije
+        </h1>
+        <div class="item">
+            <i class="fa-solid fa-location-pin"></i>
+            <a href="https://goo.gl/maps/w6YMvT3i3X2G2ho99" target="_blank">Getaldićeva 2, 10000 Zagreb</a>
+        </div>
+        <div class="item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+385-1-2371080" target="_blank">01 23 71 080</a>
+        </div>
+        <div class="item">
+            <i class="fa-solid fa-inbox"></i>
+            <a href="mailto:info@grf.hr?subject=Tehnologijada" target="_blank">info@grf.hr</a>
+        </div>
+    </section>
+    <section class="f-r">
+        <h1>Društvene mreže
+        </h1>
+        <div class="item">
+            <i class="fa-solid fa-globe"></i>
+            <a href="https://www.grf.unizg.hr/" target="_blank">Web</a>
+        </div>
+        <div class="item">
+            <i class="fa-brands fa-facebook"></i>
+            <a href="https://www.facebook.com/grf.unizg" target="_blank">Facebook</a>
+        </div>
+        <div class="item">
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/grf.unizg/" target="_blank"> Instagram</a>
+        </div>
+    </section>
+</div>
+<footer>
+    <p>Završni rad - Grafički fakultet, Sveučilište u Zagrebu &copy; 2022</p>
+</footer>
+<script defer src="script.js"></script>
+
+</html>
